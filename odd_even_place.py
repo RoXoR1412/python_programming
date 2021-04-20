@@ -8,7 +8,7 @@ def encrypt_sentence(sentence):
             s[i]=s[i][::-1]
         elif i%2!=0:
             #print("in second loop"            )
-            evowel=set("aeiou")
+            vowel=set("aeiou")
             t = ""
             t2 = ""
             for j in s[i]:
